@@ -34,7 +34,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://image.spreadshirtmedia.com/image-server/v1/compositions/T31A1PA29PT10X0Y11D1020543462FS6770/views/1,width=500,height=500,appearanceId=1/dankius-thicc-cat-small-face-coffeetea-mug.jpg"
+            image="https://bothellveterinarian.files.wordpress.com/2016/10/fat-cat-4.jpg"
             imageAlt="Another big boi"
             imageTitle="THREE Chunky Man"
             width="10px"
@@ -54,7 +54,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://66.media.tumblr.com/736642e05f37a2bcb6f3806f2dcc56b2/tumblr_pgp91sWx0N1vmskmwo1_500.png"
+            image="https://i.pinimg.com/originals/f9/21/89/f92189bdd3cac245ec2f15168d56e19d.jpg"
             imageAlt="A sad boi"
             imageTitle="Sad Boy Hours"
             width="10px"
