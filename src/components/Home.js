@@ -2,6 +2,12 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import ImageCard from './ImageCard';
 import styled from 'styled-components';
+import boi1 from '../img/boi1.jpg'
+import boi2 from '../img/boi2.jpg'
+import boi3 from '../img/boi3.jpg'
+import boi4 from '../img/boi4.jpg'
+import boi5 from '../img/boi5.jpg'
+import boi6 from '../img/boi6.jpg'
 
 const Body = styled.div`
   // height: 100%;
@@ -14,7 +20,7 @@ export default function Home() {
       <Grid container spacing={10}>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://i.redd.it/ten24a3hz7u11.jpg"
+            image={boi1}
             imageAlt="A thicc boi"
             imageTitle="One Chunky Man"
             width="10px"
@@ -24,7 +30,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://peopledotcom.files.wordpress.com/2018/08/bruno-the-cat.jpg"
+            image={boi2}
             imageAlt="Another big boi"
             imageTitle="Two Chunky Man"
             width="10px"
@@ -34,7 +40,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://bothellveterinarian.files.wordpress.com/2016/10/fat-cat-4.jpg"
+            image={boi3}
             imageAlt="Another big boi"
             imageTitle="THREE Chunky Man"
             width="10px"
@@ -44,7 +50,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://i.imgflip.com/25zlpi.jpg"
+            image={boi4}
             imageAlt="A thicc boi"
             imageTitle="One Buff Boy"
             width="10px"
@@ -54,7 +60,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://i.pinimg.com/originals/f9/21/89/f92189bdd3cac245ec2f15168d56e19d.jpg"
+            image={boi5}
             imageAlt="A sad boi"
             imageTitle="Sad Boy Hours"
             width="10px"
@@ -64,7 +70,7 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://socialnewsdaily.com/wp-content/uploads/2018/08/Fat-Cat-760x500.jpg"
+            image={boi6}
             imageAlt="Another big boi"
             imageTitle="WHEW chonk"
             width="10px"
