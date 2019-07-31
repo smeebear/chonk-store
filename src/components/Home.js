@@ -2,7 +2,6 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import ImageCard from './ImageCard';
 import styled from 'styled-components';
-import { Typography } from '@material-ui/core';
 
 const Body = styled.div`
   // height: 100%;
@@ -15,18 +14,63 @@ export default function Home() {
       <Grid container spacing={10}>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://vignette.wikia.nocookie.net/arresteddevelopment/images/6/67/1x05_Charity_Drive_%2810%29.png/revision/latest/scale-to-width-down/1000?cb=20120205003332"
-            imageAlt="A boy and his banana stand"
-            imageTitle="The Original Banana Stand"
+            image="https://i.redd.it/ten24a3hz7u11.jpg"
+            imageAlt="A thicc boi"
+            imageTitle="One Chunky Man"
             width="10px"
-            height="200px"
-            description="The first and only Bluth banana stand could have been found at the Oceanside Wharf boardwalk in sunny Newport Beach, CA"
+            height="300px"
+            description="Wow, how is he this chunky????"
           />
         </Grid>
-        <Grid item sm={6}>
-          <Typography variant="body1">
-          The stand allegedly opened in 1953 ("Pilot") but a ribbon-cutting ceremony for the stand commenced in 1963. ("The One Where They Build a House") The idea for the stand was stolen from Annyong's grandfather. ("Development Arrested") The stand was a popular meeting place for the buying and selling of marijuana in the 1970s. As the stand itself was built to resemble a large yellow banana, it was commonly known as "the big yellow joint", and became the topic of a hit song - Big Yellow Joint, by Jimmy Jane. ("Pier Pressure")
-          </Typography>
+        <Grid item sm={4}>
+        <ImageCard 
+            image="https://peopledotcom.files.wordpress.com/2018/08/bruno-the-cat.jpg"
+            imageAlt="Another big boi"
+            imageTitle="Two Chunky Man"
+            width="10px"
+            height="300px"
+            description="Could he possibly be more chonk????"
+          />
+        </Grid>
+        <Grid item sm={4}>
+        <ImageCard 
+            image="https://image.spreadshirtmedia.com/image-server/v1/compositions/T31A1PA29PT10X0Y11D1020543462FS6770/views/1,width=500,height=500,appearanceId=1/dankius-thicc-cat-small-face-coffeetea-mug.jpg"
+            imageAlt="Another big boi"
+            imageTitle="THREE Chunky Man"
+            width="10px"
+            height="300px"
+            description="Chonkest of all????"
+          />
+        </Grid>
+        <Grid item sm={4}>
+        <ImageCard 
+            image="https://i.imgflip.com/25zlpi.jpg"
+            imageAlt="A thicc boi"
+            imageTitle="One Buff Boy"
+            width="10px"
+            height="300px"
+            description="Does he lift????"
+          />
+        </Grid>
+        <Grid item sm={4}>
+        <ImageCard 
+            image="https://2static1.fjcdn.com/comments/+_5bd376337da22ba1a5fc48993a92aa97.jpg"
+            imageAlt="Another big boi"
+            imageTitle="Sad Boy Hours"
+            width="10px"
+            height="300px"
+            description=":((((((((("
+          />
+        </Grid>
+        <Grid item sm={4}>
+        <ImageCard 
+            image="https://socialnewsdaily.com/wp-content/uploads/2018/08/Fat-Cat-760x500.jpg"
+            imageAlt="Another big boi"
+            imageTitle="WHEW chonk"
+            width="10px"
+            height="300px"
+            description="tongue emoji"
+          />
         </Grid>
       </Grid>
     </Body>

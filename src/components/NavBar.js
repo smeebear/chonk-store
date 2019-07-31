@@ -70,19 +70,19 @@ export default function NavBar(props) {
       <List>
         <ListItem button key={'Home'}>
           <ListItemIcon><Home /></ListItemIcon>
-          <ListItemText primary={'Home'} />
+          <ListItemText primary={'thicc'} />
         </ListItem>
       </List>
       <List>
         <ListItem button key={'About'}>
           <ListItemIcon><ChatBubbleOutline /></ListItemIcon>
-          <ListItemText primary={'About'} />
+          <ListItemText primary={'thiccc'} />
         </ListItem>
       </List>
       <List>
         <ListItem button key={'Contact Us'}>
           <ListItemIcon><Phone /></ListItemIcon>
-          <ListItemText primary={'Contact Us'} />
+          <ListItemText primary={'THICCCC'} />
         </ListItem>
       </List>
     </div>

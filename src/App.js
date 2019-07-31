@@ -10,7 +10,7 @@ import Home from './components/Home';
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: '#F4D35E'
+      main: 'rgb(255, 187, 197)'
     },
   },
 });
@@ -19,11 +19,11 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={ theme }>
-        <header className="App-header">
-          <NavBar title={ "Home" }/>
-        </header>
-        <BannerImage /> 
-        <Home />
+        <NavBar title="chonky" />
+        <BannerImage />
+        <div className="App-home" >
+          <Home />
+        </div>
         <Footer />
       </ThemeProvider>
     </div>

@@ -6,7 +6,7 @@ import { makeStyles } from '@material-ui/core'
 const useStyles = makeStyles(theme => ({
     banner: {
         width: "100vw",
-        height: "40vh",
+        height: "50vh",
     },
     title: {
         top: "55%",
@@ -18,8 +18,8 @@ const useStyles = makeStyles(theme => ({
         color: 'white',
         fontSize: "50pt",
         textAlign: 'center',
-        fontFamily: "Hoefler Text Black, cooper-black-std, serif",
-        textShadow: "3px 3px #28AFB0",
+        fontFamily: "Segoe UI, sans-serif",
+        textShadow: "3px 3px rgb(255, 187, 197)",
         // padding: "20px",
         // borderRadius: "12px",
         // background: "rgba(0,0,0,.3)",
@@ -31,13 +31,13 @@ export default function BannerImage() {
 
     return (
         <Parallax
-            blur={1}
-            bgImage={'https://live.staticflickr.com/178/379705679_a97ba7d785_b.jpg'}
-            bgImageAlt="banananananana"
-            strength={300}
+            blur={.5}
+            bgImage={'https://i.redd.it/uvbcw564jtl11.jpg'}
+            bgImageAlt="schleepy boi"
+            strength={500}
         >
             <div className={ classes.banner} />
-            <div className={ classes.title }>Bluth's Original Frozen Banana</div>        
+            <div className={ classes.title }>Chonkerton's Chonky Store</div>        
 
         </Parallax>
     );
