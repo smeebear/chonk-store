@@ -54,8 +54,8 @@ export default function Home() {
         </Grid>
         <Grid item sm={4}>
         <ImageCard 
-            image="https://2static1.fjcdn.com/comments/+_5bd376337da22ba1a5fc48993a92aa97.jpg"
-            imageAlt="Another big boi"
+            image="https://66.media.tumblr.com/736642e05f37a2bcb6f3806f2dcc56b2/tumblr_pgp91sWx0N1vmskmwo1_500.png"
+            imageAlt="A sad boi"
             imageTitle="Sad Boy Hours"
             width="10px"
             height="300px"
