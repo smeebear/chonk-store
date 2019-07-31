@@ -69,7 +69,7 @@ export default function Home() {
             imageTitle="WHEW chonk"
             width="10px"
             height="300px"
-            description="tongue emoji"
+            description="👅👅👅"
           />
         </Grid>
       </Grid>
