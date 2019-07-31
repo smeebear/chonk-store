@@ -2,7 +2,7 @@ import '../App.css';
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { makeStyles } from '@material-ui/core'
-import banner from '../img/banner.jpg'
+
 
 const useStyles = makeStyles(theme => ({
     banner: {
@@ -27,18 +27,18 @@ const useStyles = makeStyles(theme => ({
     }
   }));
 
-export default function BannerImage() {
+export default function BannerImage(props) {
     const classes = useStyles();
 
     return (
         <Parallax
             blur={.5}
-            bgImage={banner}
+            bgImage={props.img}
             bgImageAlt="schleepy boi"
             strength={500}
         >
             <div className={ classes.banner} />
-            <div className={ classes.title }>Chonkerton's Chonky Store</div>        
+            <div className={ classes.title }>{props.title}</div>        
 
         </Parallax>
     );
