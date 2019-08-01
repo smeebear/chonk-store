@@ -10,8 +10,8 @@ export default function ImageCard(props) {
 
   return (
     <Card width={ props.width }>
+      <Button target="_blank" href="https://teespring.com/chonkest-lad" >
       <CardActionArea>
-        <Button target="_blank" href="https://teespring.com/chonkest-lad" >
         <CardMedia
           component="img"
           alt={ props.imageAlt }
@@ -27,8 +27,8 @@ export default function ImageCard(props) {
             { props.description }
           </Typography>
         </CardContent>
-        </Button>
       </CardActionArea>
+      </Button>
     </Card>
   );
 }
