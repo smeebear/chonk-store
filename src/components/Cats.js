@@ -14,7 +14,7 @@ const Body = styled.div`
   margin: 30px;
 `
 
-export default function Home() {
+export default function Cats() {
   return (
     <Body>
       <Grid container spacing={10}>

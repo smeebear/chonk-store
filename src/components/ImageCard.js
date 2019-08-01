@@ -19,7 +19,6 @@ export default function ImageCard(props) {
           image={ props.image }
           title={ props.imageTitle }
         />
-        </Button>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             { props.imageTitle }
@@ -28,6 +27,7 @@ export default function ImageCard(props) {
             { props.description }
           </Typography>
         </CardContent>
+        </Button>
       </CardActionArea>
     </Card>
   );

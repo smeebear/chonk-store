@@ -5,7 +5,8 @@ import BannerImage from './components/BannerImage';
 import { createMuiTheme} from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Cats from './components/Cats';
+import Dogs from './components/Dogs';
 import banner from './img/banner.jpg'
 import banner2 from './img/banner2.jpg'
 
@@ -24,11 +25,11 @@ function App() {
         <NavBar title="chonky" />
         <BannerImage img={banner} title="chunki boi haven" />
         <div className="App-home" >
-          <Home />
+          <Cats />
         </div>
-        <BannerImage img={banner2} title="he observe" />
+        <BannerImage img={banner2} title="doggy time" />
         <div className="App-home" >
-          <Home />
+          <Dogs />
         </div>
         <Footer />
       </ThemeProvider>
