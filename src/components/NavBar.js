@@ -16,6 +16,7 @@ import ChatBubbleOutline from '@material-ui/icons/ChatBubbleOutline';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -68,21 +69,21 @@ export default function NavBar(props) {
       </MenuHead>
       <Divider />
       <List>
-        <ListItem button key={'Home'}>
+        <ListItem button component={Link} to='/'>
           <ListItemIcon><Home /></ListItemIcon>
           <ListItemText primary={'thicc'} />
         </ListItem>
       </List>
       <List>
-        <ListItem button key={'About'}>
+        <ListItem button component={Link} to='/about'>
           <ListItemIcon><ChatBubbleOutline /></ListItemIcon>
-          <ListItemText primary={'thiccc'} />
+          <ListItemText primary={'about'} />
         </ListItem>
       </List>
       <List>
-        <ListItem button key={'Contact Us'}>
+        <ListItem button component={Link} to='/contact'>
           <ListItemIcon><Phone /></ListItemIcon>
-          <ListItemText primary={'THICCCC'} />
+          <ListItemText primary={'call me'} />
         </ListItem>
       </List>
     </div>
