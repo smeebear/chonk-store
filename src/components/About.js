@@ -4,7 +4,9 @@ export class About extends Component {
     render() {
         return (
             <div>
-                <p style={{textAlign: 'center'}} >i got routing to work and i'm way too tired to write something funny, let me go to bed</p>
+                <p style={{textAlign: 'center'}} >
+                    made this with my girlfriend. she likes how much i enjoy the fat animals. i hope you do too.
+                </p>
             </div>
         )
     }

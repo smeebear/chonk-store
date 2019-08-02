@@ -16,6 +16,8 @@ html, body {
   background: linear-gradient(70deg, rgba(255, 187, 197, 0.733), #FFFFFF);
   width: 100%;
   height: auto;
+  min-height:100%;
+  position: relative;
 }
 
 .App-header {

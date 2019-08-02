@@ -11,6 +11,7 @@ import Dogs from './components/Dogs';
 import About from './components/About';
 import banner from './img/banner.jpg';
 import banner2 from './img/banner2.jpg';
+import Contact from './components/Contact';
 
 const theme = createMuiTheme({
   palette: {
@@ -39,6 +40,7 @@ function App() {
             </React.Fragment>
           )} />
           <Route path='/about' component={About}/>
+          <Route path='/contact' component={Contact}/>
           <Footer />
         </ThemeProvider>
       </div>
