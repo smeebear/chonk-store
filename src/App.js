@@ -9,8 +9,8 @@ import Footer from './components/Footer';
 import Cats from './components/Cats';
 import Dogs from './components/Dogs';
 import About from './components/About';
-import banner from './img/banner.jpg';
-import banner2 from './img/banner2.jpg';
+import banner from './img/banner2.jpg';
+import banner2 from './img/banner3.jpg';
 import Contact from './components/Contact';
 
 const theme = createMuiTheme({
@@ -36,6 +36,8 @@ function App() {
               <BannerImage img={banner2} title="doggy time" />
               <div className="App-home" >
                 <Dogs />
+                <p>.</p>
+                <p>.</p>
               </div>
             </React.Fragment>
           )} />
