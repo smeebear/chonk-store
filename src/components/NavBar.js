@@ -71,7 +71,7 @@ export default function NavBar(props) {
       <List>
         <ListItem button component={Link} to='/'>
           <ListItemIcon><Home /></ListItemIcon>
-          <ListItemText primary={'thicc'} />
+          <ListItemText primary={'thicc bois'} />
         </ListItem>
       </List>
       <List>
@@ -83,7 +83,7 @@ export default function NavBar(props) {
       <List>
         <ListItem button component={Link} to='/contact'>
           <ListItemIcon><Phone /></ListItemIcon>
-          <ListItemText primary={'call me'} />
+          <ListItemText primary={'hit me up'} />
         </ListItem>
       </List>
     </div>
